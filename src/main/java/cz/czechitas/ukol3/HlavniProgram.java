@@ -36,14 +36,14 @@ public class HlavniProgram {
             mojPocitac.zapniSa();
             mojPocitac.zapniSa();      // Vypise chybu, protoze pocitac uz bezi
 
-        System.out.println(mojPocitac.toString());
+       /* System.out.println(mojPocitac.toString());
             mojPocitac.vypniSa();
 
             mojPocitac.vypniSa();      // Nevypise chybu, ale nic neprovede,
-            mojPocitac.vypniSa();      // protoze pocitac je uz vypnuty
+            mojPocitac.vypniSa();  */    // protoze pocitac je uz vypnuty
 
         mojPocitac.vytvorSuborVelkosti(500);
-        mojPocitac.vymazSuborVelkosti(600);
+        mojPocitac.vymazSuborVelkosti(300);
 
 
         }
@@ -61,4 +61,4 @@ public class HlavniProgram {
 
     }
 
-}
+

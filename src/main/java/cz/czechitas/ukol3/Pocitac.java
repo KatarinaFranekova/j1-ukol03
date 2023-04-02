@@ -32,9 +32,15 @@ public class Pocitac {
         this.pevnyDisk = pevnyDisk;
     }
 
+
     @Override
     public String toString() {
-        return  "Pocitac = " + " cpu = " + cpu + "/" + "ram = " + ram + "/" + "pevnyDisk = " + pevnyDisk;
+        return "Pocitac{" +
+                "jeZapnuty=" + jeZapnuty +
+                ", cpu=" + cpu +
+                ", ram=" + ram +
+                ", pevnyDisk=" + pevnyDisk +
+                '}';
     }
 
     public boolean jeZapnuty () {

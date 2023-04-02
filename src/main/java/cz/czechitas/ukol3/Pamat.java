@@ -18,6 +18,8 @@ public class Pamat {
 
     @Override
     public String toString() {
-        return "Pamat = " + "kapacita" + kapacita;
+        return "Pamat{" +
+                "kapacita=" + kapacita +
+                '}';
     }
 }

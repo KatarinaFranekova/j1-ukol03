@@ -27,6 +27,9 @@ public class Disk {
 
     @Override
     public String toString() {
-        return  "Disk = " + "kapacita" +kapacita + "/" + "vyuziteMisto" + vyuziteMisto;
+        return "Disk{" +
+                "kapacita=" + kapacita +
+                ", vyuziteMisto=" + vyuziteMisto +
+                '}';
     }
 }

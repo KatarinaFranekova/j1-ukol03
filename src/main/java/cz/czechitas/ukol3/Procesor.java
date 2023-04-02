@@ -24,9 +24,12 @@ public class Procesor {
         this.rychlost = rychlost;
     }
 
+
     @Override
     public String toString() {
-        return "Procesor - " + "vyrobca " + vyrobca + '/' + "rychlost" +rychlost;
-
+        return "Procesor{" +
+                "vyrobca='" + vyrobca + '\'' +
+                ", rychlost=" + rychlost +
+                '}';
     }
 }
